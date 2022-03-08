@@ -1,0 +1,76 @@
+#main-menu { 
+    text-align: center;
+    font-size: 100px;
+}
+
+.body {
+    background-color: tan;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.menu-type {
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+    border-bottom: double 5px;
+}
+
+.menu-items { 
+    background-color: rgb(245, 224, 197);
+    border-style: dotted;
+    border-color: rgb(2, 85, 2);
+    border-width: 5px;
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    box-shadow: 5px 10px 10px #888, -5px -10px 10px #888;
+
+}
+
+.menu {
+    font-weight: bolder; 
+    color: rgb(2, 85, 2); 
+    padding-bottom: 5px;
+}
+
+.order {
+    color: orangered;
+    border-color: orangered;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.appName1 { 
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.appName2 { 
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    padding-right: 20px;
+}
+
+ .love { /* actual heart shape or inline */
+         /* display: flex;
+        flex-direction: row;
+        justify-content: flex-end; 
+        min-height: 100px; */
+} 
+
+.columns {
+    column-count: 2;
+}
+
+.active {
+    color: red;
+}
+
+i {
+    pointer-events: none;
+}
